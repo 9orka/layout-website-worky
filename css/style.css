@@ -3,6 +3,7 @@
 }
 
 body{
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
@@ -132,7 +133,7 @@ img{
     transition: .8s;
  }
 
- .about{
+ .about, .aboutp{
      padding-top: 70px;
      padding-bottom: 50px;
  }
@@ -396,6 +397,7 @@ img{
     font-weight: 200;
     color: white;
 }
+
 .team-title{
     font-size: 50px;
     max-width: 400px;
@@ -528,13 +530,13 @@ img{
 }
 @media(max-width: 1200px){
     .services{
-        visibility: hidden;
+        display: none;
     }
     .milestones{
-       visibility: hidden;
+    display: none;
     }
-    .team{
-        margin-top: -1200px;
+    .container-team{
+        margin-top: 30px;
     }
 }
 @media(max-width: 1705px){
@@ -603,6 +605,9 @@ img{
         width: 100%;
         padding-left: 0;
     }
+    .testimonials-subtitle{
+        margin-top: 30px;
+    }
     .testimonials-cl{
         padding-left: 5px;
     }
@@ -616,10 +621,35 @@ img{
     .portph{
         margin: 7px;
     }
+    .about{
+        margin-top: 10px;
+    }
+    .aboutp{
+        margin-top: 270px;
+    }
+    
 }
 
 @media(max-width: 550px){
-     .about{
-         margin-top: 270px;
-     }
+     
+}
+@media(max-width: 450px){
+    .teamph{
+        margin: 35px;
+    }
+    .hero-title{
+        font-size: 60px;
+    }
+    .testimonials-title{
+        font-size: 40px;
+   }
+   .advantages-title{
+       font-size: 40px;
+   }
+   .partners-title{
+       font-size: 40px;
+   }
+   .portph{
+       margin-top: -90px;
+   }
 }
