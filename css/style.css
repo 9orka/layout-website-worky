@@ -138,7 +138,7 @@ img{
      padding-bottom: 50px;
  }
  .about-subtitle, .testimonials-subtitle, .advantages-subtitle, 
- .portfolio-subtitle, .partners-subtitle, .services-subtitle, .team-subtitle{
+ .portfolio-subtitle, .partners-subtitle, .services-subtitle, .team-subtitle, .serv-subtitle{
      font-size: 20px;
      font-weight: 200;
  }
@@ -164,7 +164,9 @@ img{
     background-color: #f7992b;
     margin-top: 30px;
     margin-bottom: 30px;
+
 }
+
 .about-photos{
     position: relative;
     padding-top: 50px;
@@ -258,14 +260,14 @@ img{
      line-height: 35px;
      font-size: 16px;
 }
-.container-potfolio, .container-team{
+.container-potfolio, .container-team, .container-serv{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 70px;
 }
-.portfolio-main, .team-main{
+.portfolio-main, .team-main, .services-main{
     display: flex;
     flex-direction: column;
 }
@@ -276,7 +278,7 @@ img{
     margin-bottom: 0;
     margin-top: 10px;
 }
-.portfolio-descr, .team-descr{
+.portfolio-descr, .team-descr, .serv-descr{
     max-width: 580px;
      font-weight: 200;
      line-height: 35px;
@@ -398,7 +400,7 @@ img{
     color: white;
 }
 
-.team-title{
+.team-title, .serv-title{
     font-size: 50px;
     max-width: 400px;
     font-weight: 800;
@@ -438,6 +440,10 @@ img{
     line-height: 37px;
     font-weight: 500;
 }
+.serv{
+    margin-top: 150px;
+}
+
 .footer{
     padding-top: 100px;
     padding-bottom: 19px;
@@ -624,13 +630,18 @@ img{
     .about{
         margin-top: 10px;
     }
-    .aboutp{
-        margin-top: 270px;
-    }
+    
     
 }
 
 @media(max-width: 550px){
+    .aboutp{
+        margin-top: 270px;
+    }
+    .serv{
+        margin-top: 400px;
+    }
+
      
 }
 @media(max-width: 450px){
@@ -653,3 +664,4 @@ img{
        margin-top: -90px;
    }
 }
+
